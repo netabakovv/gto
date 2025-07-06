@@ -1,0 +1,46 @@
+.admin-result-form {
+    background: white;
+}
+
+.admin-label {
+    display: block;
+}
+
+.admin-select {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  appearance: none;
+  border: 1px solid #e2e8f0; /* Примерный цвет границы (может отличаться) */
+  border-radius: 0.25rem; /* 4px */
+  width: 100%;
+  padding: 0.5rem 0.75rem; /* py-2 px-3 */
+  color: #4a5568; /* text-gray-700 */
+  line-height: 1.25; /* leading-tight */
+}
+.admin-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* focus:shadow-outline */
+}
+
+.admin-table {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 33% 33%;
+}
+
+.admin-input {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  appearance: none;
+  height: auto;
+  margin: 0;
+  border: 1px solid #e2e8f0; /* Примерный цвет границы (может отличаться) */
+  border-radius: 0.25rem; /* 4px */
+  width: 80%;
+  padding: 0.5rem 0.75rem; /* py-2 px-3 */
+  color: #4a5568; /* text-gray-700 */
+  line-height: 1.25; /* leading-tight */
+}
+
+.admin-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* focus:shadow-outline */
+}

@@ -1,0 +1,42 @@
+.normative-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .normative-card {
+    background: rgba(0, 0, 0, 0.4) url(../../images/jump.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .normative-card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+  }
+  
+  .normative-card-content {
+    padding: 1rem;
+  }
+  
+  .normative-card-title {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .normative-card-category {
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .normative-card-age-group {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.875rem;
+  }
+  
